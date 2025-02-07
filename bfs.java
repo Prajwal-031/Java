@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 
+// Breadth-First Search (BFS) algorithm to read a text file character by character
 public class bfs {
     public static void main(String[] args) {
         try (BufferedReader reader = new BufferedReader(new FileReader("Bfs.tex"))) {
